@@ -1,0 +1,20 @@
+{
+  "name": "ecommerce-product-cart-api",
+  "version": "1.0.0",
+  "description": "E-Commerce Product Catalog & Shopping Cart REST API using file-system JSON storage",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "bcryptjs": "^2.4.3",
+    "express-session": "^1.18.0",
+    "dotenv": "^16.4.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
